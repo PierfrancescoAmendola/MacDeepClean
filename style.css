@@ -77,7 +77,8 @@ header.top nav a:hover { color: var(--text); text-decoration: none; }
 .cta svg { width: 20px; height: 20px; fill: currentColor; }
 .hero small { display: block; margin-top: 12px; color: var(--muted); font-size: 14px; }
 
-.shot { margin: 40px auto 0; max-width: 980px; border-radius: 16px; overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--line); }
+.shot { margin: 40px auto 0; max-width: 980px; border-radius: 18px; overflow: hidden; box-shadow: var(--shadow); }
+.shot img { display: block; width: 100%; height: auto; }
 
 section { padding: 64px 0; }
 section h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); letter-spacing: -.01em; text-align: center; margin: 0 0 8px; }
